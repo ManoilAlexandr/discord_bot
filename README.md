@@ -46,6 +46,7 @@ npm install
 DISCORD_TOKEN=ваш_токен_бота
 DEEPL_AUTH_KEY=ваш_ключ_DeepL_API
 TARGET_CHANNEL_ID=ID_канала_для_переводов
+N8N_WEBHOOK=ссылка_на_вебхук
 ```
 
 4. Запустите бота:
