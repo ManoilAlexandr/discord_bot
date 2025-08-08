@@ -6,4 +6,5 @@ export const env = {
     channel: process.env.SUBSCRIBED_CHANNEL_ID,
     deepl: process.env.DEEPL_API_KEY,
     google: process.env.GOOGLE_API_KEY,
+    n8n: process.env.N8N_WEBHOOK_URL,
 };

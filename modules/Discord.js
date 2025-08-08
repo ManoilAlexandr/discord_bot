@@ -101,12 +101,9 @@ export default class DiscordClient {
                     actualMessage = message.content;
                 }
 
-                await axios.post(
-                    "http://localhost:5678/webhook/discord-message",
-                    {
-                        content: actualMessage,
-                    }
-                );
+                await axios.post(env.n8n, {
+                    content: actualMessage,
+                });
             }
         } catch (err) {
             console.error("Ошибка при переводе текста:", err);
